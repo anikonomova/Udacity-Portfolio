@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Slab");
+
+body {
+  font-family: "Josefin Slab", serif;
+}
+
+.box {
+  min-height: 150px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100%;
+}
+
+.header {
+  display: block;
+  width: 100%;
+  min-height: 56px;
+  border-bottom: 3px solid #7d97ad;
+  margin: 0;
+}
+
+.logo {
+  float: left;
+  width: 15%;
+  vertical-align: middle;
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+
+.name {
+  float: right;
+  font-family: "Shadows Into Light", cursive;
+  color: #2d3c49;
+  font-size: 120%;
+  font-weight: bold;
+  text-shadow: 3px 3px #02b3e4;
+  text-align: right;
+}
+
+.main {
+  max-width: 100%;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+}
+.description {
+  font-size: 1.6em;
+  text-align: left;
+  max-width: 100%;
+}
+.title {
+  color: #7d97ad;
+  text-align: left;
+  font-size: 120%;
+  }
+
+a:link {
+    text-decoration: none;
+  }
+.project {
+  margin: auto;
+  max-width: 100%;
+}
+.projectNames {
+  color: #2d3c49;
+  font-size: 150%;
+  text-align: center;
+}
+.mockup,
+.animal,
+.pam {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+.follow {
+  display: block;
+  text-align: center;
+  font-size: 200%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact {
+  color: #7d97ad;
+  text-align: left;
+  font-size: 70%;
+  }
+// The social media icons code is adapted from (https://www.w3schools.com/howto/howto_css_social_media_buttons.asp)
+.fa {
+    padding: 10px;
+    font-size: 40px;
+    width: 40px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;}
+.fa-google {
+  background: red;
+  color: white;
+}
+.fa-linkedin {
+  background: blue;
+  color: white;
+}
+.fa-github {
+  background: black;
+  color: white;
+}
+.fa-codepen {
+  background: black;
+  color: white;
+}
