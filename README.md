@@ -1,2 +1,5 @@
 # Udacity-Portfolio
-Udacity Project - Buil a portfolio
+Udacity Project - Building a portfolio from a mockup (FEND) 
+# Contributor
+Anna Ikonomova
+ani.strandjeva@gmail.com
